@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/media/nixon/Webdrive/debian_dir/DjangoEnv/djangoenv/Billsoft/manage.py", line 11, in main
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/nixon/Webdrive/debian_dir/DjangoEnv/djangoenv/Billsoft/manage.py", line 22, in <module>
+    main()
+  File "/media/nixon/Webdrive/debian_dir/DjangoEnv/djangoenv/Billsoft/manage.py", line 13, in main
+    raise ImportError(
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 17, 2024 - 06:03:21
+Django version 4.2.13, using settings 'Billsoft.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
